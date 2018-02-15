@@ -79,11 +79,11 @@ body {
     filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
-    width: 300px;
+    width: 380px;
     padding-left: 3px;
 }
 #knap{
-    margin-left: 110px;
+    margin-left: 173px;
 }
 
 .material-icons {
@@ -99,7 +99,13 @@ body {
 }
 #textbox{
     flex: 1;
+     font-family: 'Josefin Sans', sans-serif;
+    padding-left: 150px;
 }
+#tekst{
+font-size: 16px;    
+}
+
 #billedebox{
 flex: 1; 
 }
