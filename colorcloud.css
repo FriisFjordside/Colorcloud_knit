@@ -1,0 +1,88 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	background-color: black;
+	width: 100%;
+}
+.wrapper {
+    width: 100%;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+    background-color: black;
+}
+#banner{
+    position: absolute;
+    top: 200px;
+    font-size: 7rem; 
+    left: 23%;
+    color: white;
+    /*font-family: 'Vidaloka', serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*
+div.text-container {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.hideContent {
+  overflow: hidden;
+  line-height: 1em;
+  height: 2em;
+}
+
+.showContent {
+  line-height: 1em;
+  height: auto;
+}
+
+.showContent {
+  height: auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  padding: 10px 0;
+}
+
+.show-more {
+  padding: 10px 0;
+  text-align: center;
+}
+*/
+.collapse{
+    width: 150px;
+    background-color: aqua;
+    height: auto;
+    width: auto;
+    
+}
