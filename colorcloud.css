@@ -1,61 +1,125 @@
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 /* End of Eric Meyer's CSS Reset */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
 }
+
 body {
-	background-color: black;
-	width: 100%;
-}
-.wrapper {
+    background-color: black;
     width: 100%;
 }
 
-
 /* Middle
 -----------------------------------------------------------------------------*/
+
 .content {
-    background-color: black;
+    background-color: white;
 }
-#banner{
+
+#banner {
     position: absolute;
     top: 200px;
-    font-size: 7rem; 
+    font-size: 7rem;
     left: 23%;
     color: white;
-    /*font-family: 'Vidaloka', serif;*/
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.collapse{
+#slide2 {
     display: flex;
-    width: 20%;
-    background-color: aqua;
+    flex-direction: column;; 
+}
+
+.collapse {
+    background-color: lightgrey;
+    opacity: 0.7;
+    filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
-    padding-left: 2px;
+    width: 170px;
+    padding-left: 3px;
+}
+
+#knap-teskt{
+    display:inline-flex;
+    flex-direction: column;
+    position: absolute; 
+    z-index: 2;
     
 }
-.button{
-    background-color: white;
+.tekst {
     color: black;
 }
+
+#knap {
+    background-color: white;
+    color: black;
+    margin-left: 60px;
+    border: 10px;
+    border-color: black;
+}
+
+.material-icons {
+    font-size: 5px;
+
+}
+
+#interview1 {
+    z-index: 1;
+    display: block; 
+    }
+
+.container {
+    flex-direction: column;
+    z-index: 1;
+    background-color: black;
+    }
