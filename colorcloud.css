@@ -74,38 +74,130 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 .collapse {
+    position: absolute;
+    left: 14%;
+    top: 157%;
     background-color: lightgrey;
-    opacity: 0.7;
+    opacity: 0.9;
     filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
     width: 380px;
     padding-left: 3px;
+    z-index: 2;
 }
 #knap{
-    margin-left: 173px;
+position: absolute;
+    left: 25%;
+    top: 150%;
+    z-index: 2;
 }
 
+#knaptekst2{
+    z-index: 2;
+}
 .material-icons {
     font-size: 5px;
 
 }
 
-#bigbox{
+.bigbox{
     display: flex;
     flex-direction: row; 
     
     
 }
-#textbox{
-    flex: 1;
+.textbox{
      font-family: 'Josefin Sans', sans-serif;
-    padding-left: 150px;
+    
 }
-#tekst{
-font-size: 16px;    
+#tekst2{
+font-size: 16px; 
+    z-index: 2;
+}
+}
+#billedebox2{
+    z-index: 1;
+flex: 1; 
 }
 
-#billedebox{
-flex: 1; 
+#tekst3{
+    position: absolute;
+    font-size: 16px;
+    z-index: 2;
+    left: 60%;
+    top: 280%;
+    background-color: lightgrey;
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+    border: 4px;
+    border-radius: 10px;
+    width: 300px;
+    padding-left: 3px;
+}
+#tekst4{
+    flex: 1;
+    font-size: 16px;
+    z-index: 2;
+    background-color: lightgrey;
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+    border: 4px;
+    border-radius: 10px;
+    width: 300px;
+    padding-left: 3px;
+}
+#billedebox4{
+    flex: 1;
+    
+}
+
+#billedebox5{
+    flex: 1;
+    
+}
+billedebox6{
+    z-index: 1;
+    display: block;
+}
+
+#tekst6{
+    position: absolute;
+    right: 25%;
+    top: 620%;
+    left: 60%;
+    z-index: 2;
+    background-color: lightgray;
+    opacity: 0.9;
+    filter: Alpha(opacity=50);
+    border: 4px;
+    border-radius: 10px;
+    padding-left: 3px;   
+}
+
+#slide8head{
+    font-size: 12rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#venstre{
+    flex: 1;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#højre{
+    flex: 1;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#finalbanner{
+    text-align: center;
+    position: absolute;
+    top: 900%;
+    font-size: 7rem;
+    left: 43%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
