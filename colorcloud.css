@@ -10,7 +10,7 @@ header,
 hgroup,
 menu,
 nav,
-section {
+/*section {
     display: block;
 }
 
@@ -56,6 +56,8 @@ summary {
 body {
     background-color: black;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Middle
@@ -64,10 +66,17 @@ body {
 .content {
     background-color: white;
 }
+#logo{
+    position: absolute;
+    height: 20%;
+    width: 13%;
+    left:43%;
+    top: 2%;
+}
 
 #banner {
     position: absolute;
-    top: 200px;
+    top: 33%;
     font-size: 7rem;
     left: 23%;
     color: white;
@@ -118,7 +127,7 @@ font-size: 16px;
 }
 #billedebox2{
     z-index: 1;
-flex: 1; 
+    flex: 1;
 }
 
 #tekst3{
@@ -136,24 +145,20 @@ flex: 1;
     padding-left: 3px;
 }
 #tekst4{
-    flex: 1;
+    position: absolute;
+    right: 75%;
+    top: 400%;
     font-size: 16px;
     z-index: 2;
-    background-color: lightgrey;
-    opacity: 0.9;
-    filter: Alpha(opacity=50);
-    border: 4px;
-    border-radius: 10px;
     width: 300px;
-    padding-left: 3px;
 }
 #billedebox4{
-    flex: 1;
+ /*padding-right: 20%;*/
+  
     
 }
 
 #billedebox5{
-    flex: 1;
     
 }
 billedebox6{
@@ -185,19 +190,28 @@ billedebox6{
     flex: 1;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    margin-right: 20px;
 }
 #højre{
     flex: 1;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
 }
 
 #finalbanner{
     text-align: center;
     position: absolute;
-    top: 900%;
+    top: 775%;
     font-size: 7rem;
     left: 43%;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
+}
+#finallogo{
+    position: absolute;
+    height: 20%;
+    width: 13%;
+    top: 823%;
+    left: 84%;
 }
