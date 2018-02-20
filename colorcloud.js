@@ -27,7 +27,21 @@ document.getElementById("tekst6").onclick = function () {
     fuldUd()
     document
     .getElementById("tekst6")
-    .innerHTML = "Det er ikke kun kvaliteten af sweateren, der har stor betydning for Tommy. Han mener, at den vigtigste del af processen er, at inddrage kunden. Forud for kreationen af sweateren, har kunden en dialog med Tommy. Dialogen er begyndelsen på den selvindsigt, der skaber hver enkelt strik. Dialogen danner ikke kun ramme for det fysiske udtryk af strikken, men skaber også den emotionelle association til trøjen."
+    .innerHTML = "Det er ikke kun kvaliteten af sweateren, der har stor betydning for Tommy. Han mener, at den vigtigste del af processen er, at inddrage kunden. Forud for kreationen af sweateren, har kunden en dialog med Tommy. Dialogen er begyndelsen på den selvindsigt, der skaber hver enkelt strik. Dialogen danner ikke kun ramme for det fysiske udtryk af strikken, men skaber også den emotionelle association til trøjen.";
+}
+/*--------------------------------------------------------------------------------------*/
+document.getElementById("tekst6ekstra").onclick = function () {
+    fuldUd()
+    document
+    .getElementById("tekst6ekstra")
+    .innerHTML = "Det er betydningsfuldt for Tommy, at have et stort udvalg af forskellige farver tråd. Dette er, som Tommy understreger, fordi at tråden repræsenterer temperaturen på mennesket. Mulighederne for de mange farvekombinationer af tråde, og variationer i faconen af sweateren, skaber uendelige muligheder. På den måde bliver hver kundes strik personliggjort, og den følelsesmæssige forbindelse bliver forstærket.";
+}
+/*--------------------------------------------------------------------------------------*/
+document.getElementById("tekst7").onclick = function () {
+    fuldUd()
+    document
+    .getElementById("tekst7")
+    .innerHTML = "Kødbyen er en gammel bydel af Aarhus, hvor mange kreative virksomheder holder til. Området er stille og uforstyrret med undtagelsen for havets brusen, og et par enkelte sæler der titter frem fra overfladen. Studiets kreativitet skinner tydeligt igennem i form af arbejdsmiljøet. Strikkemaskiner, tråd i adskillige farver og designskitser pryder lokalet og udgør COLORCLOUDSTUDIO_KNITs essens.";
 }
 /*--------------------------------------------------------------------------------------*/
 
