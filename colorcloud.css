@@ -125,9 +125,35 @@ a{
 }
 /* ------------------------------------------Slut på første slide------------------------------------------------*/
 
-#nedpil{
-    text-align: center;
-    align-content: center;
+#readmore1{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#readmore2{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#readmore3{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#readmore4{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#readmore5{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+#readmore6{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
 
 .bigbox {
