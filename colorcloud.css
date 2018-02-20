@@ -80,8 +80,8 @@ a{
 
 #betterWithSound {
     position: absolute;
-    top: 60%;
-    left: 41.5%;
+    top: 75%;
+    left: 20%;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
     color: white;
@@ -115,12 +115,26 @@ a{
 
 #downarrow {
     position: absolute;
-    top: 80%;
-    left: 47.5%;
+    top: 84%;
+    left: 75%;
+}
+#simpdownarrow{
+    height: 5%;
+    width: auto;
+    position: absolute;
+    top: 96%;
+    left: 76.3%;
     animation-name: andersine;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-
+}
+#begin{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 70.8%;
+    font-size: 2rem;
 }
 /* ------------------------------------------Slut på første slide------------------------------------------------*/
 
@@ -141,6 +155,7 @@ a{
     height: 30px;
     width: 30px;
     cursor: pointer;
+    padding-left: 43%;
 }
 #readmore2:hover{
     animation-name: joachim;
@@ -151,6 +166,7 @@ a{
     height: 30px;
     width: 30px;
     cursor: pointer;
+    padding-left: 17%;
 }
 #readmore3:hover{
     animation-name: joachim;
@@ -161,6 +177,7 @@ a{
     height: 30px;
     width: 30px;
     cursor: pointer;
+    padding-left: 43%;
 }
 #readmore4:hover{
     animation-name: joachim;
@@ -171,6 +188,7 @@ a{
     height: 30px;
     width: 30px;
     cursor: pointer;
+    padding-left: 43%;
 }
 #readmore5:hover{
     animation-name: joachim;
@@ -181,6 +199,7 @@ a{
     height: 30px;
     width: 30px;
     cursor: pointer;
+    padding-left: 43%;
 }
 #readmore6:hover{
     animation-name: joachim;
@@ -210,13 +229,13 @@ a{
     font-family: 'Josefin Sans', sans-serif;
     z-index: 2;
     width: 40%;
-    line-height: 125%;
-    background-color: lightgrey;
-    opacity: 0.9;
+    line-height: 150%;
+    background-color: white;
+    opacity: 0.8;
     filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
-    padding-left: 2px;
+    padding: 10px;
 
 }
 
@@ -232,14 +251,15 @@ a{
     font-family: 'Josefin Sans', sans-serif;
     z-index: 2;
     left: 60%;
-    top: 280%;
-    background-color: lightgrey;
+    top: 260%;
+    background-color: white;
     opacity: 0.9;
     filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
     width: 300px;
-    padding-left: 3px;
+    padding: 10px;
+    line-height: 150%;
 }
 /*-----------------------------------------------------------4-------------------------------------------------*/
 #tekst4 {
@@ -247,10 +267,10 @@ a{
     font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     right: 73%;
-    top: 390%;
+    top: 380%;
     z-index: 2;
     width: 25%;
-    line-height: 125%;
+    line-height: 150%;
 }
 
 /*------------------------------------------------------------5------------------------------------------------------------*/
@@ -267,14 +287,14 @@ billedebox6 {
     top: 498%;
     left: 75%;
     z-index: 2;
-    background-color: lightgray;
+    background-color: white;
     opacity: 0.9;
     filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
-    padding-left: 3px;
+    padding: 10px;
     margin-right: 2%;
-    line-height: 125%;
+    line-height: 150%;
 }
 
 /*---------------------------------------------------------------6.5----------------------------------------------------------------*/
@@ -284,13 +304,13 @@ billedebox6 {
     top: 625%;
     left: 20%;
     z-index: 2;
-    background-color: lightgray;
+    background-color: white;
     opacity: 0.9;
     filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
-    padding-left: 3px;
-    line-height: 125%;
+    padding: 10px;
+    line-height: 150%;
     width: 25%;
 }
 /*--------------------------------------------------------------7---------------------------------------------------------------------*/
@@ -300,12 +320,12 @@ billedebox6 {
     top: 745%;
     left: 60%;
     z-index: 2;
-    background-color: lightgray;
+    background-color: white;
     opacity: 0.9;
     filter: Alpha(opacity=50);
     border: 4px;
     border-radius: 10px;
-    padding-left: 3px;
+    padding: 10px;
     line-height: 125%;
     width: 25%;   
 }
@@ -316,14 +336,23 @@ billedebox6 {
 }
 
 #slide8head {
-    font-size: 11rem;
+    font-size: 150px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: -12px;
     
 }
 
-#venstre {
-    flex: 1;
+#tekst8{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 150%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+    font-size: 1.2rem;
+}
+/*#venstre {
+   /* flex: 1;*/
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem;
     margin-right: 2.5%;
@@ -331,15 +360,15 @@ billedebox6 {
     line-height: 150%;
 
 }
-
-#hoejre {
-    flex: 1;
+*/
+/*#hoejre {
+   /* flex: 1;*/
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.2rem;
     margin-right: 2.5%;
     margin-left: 2.5%;
     line-height: 150%;
-}
+}*/
 /*----------------------------------------------------------------9--------------------------------------------------------------*/
 #billedeboks9 {
     z-index: 1;
