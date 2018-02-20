@@ -171,7 +171,8 @@ a{
 
 #tekst3 {
     position: absolute;
-    font-size: 16px;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
     z-index: 2;
     left: 60%;
     top: 280%;
