@@ -127,6 +127,7 @@ a{
 /*- -------------------------------------------------readmore pile--------------------------*/
 
 #readmore1{
+    padding-left: 43%;
     height: 30px;
     width: 30px;
     cursor: pointer;
